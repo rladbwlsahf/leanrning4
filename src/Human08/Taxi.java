@@ -1,0 +1,15 @@
+package Human08;
+
+public class Taxi implements Car {
+
+	@Override
+	public void run() {
+		System.out.println("버스를 타고 출근합니다.");
+		
+	}
+	public void checkFare() {
+		System.out.println("승차요금을 비교합니다.");
+		
+	}
+
+}

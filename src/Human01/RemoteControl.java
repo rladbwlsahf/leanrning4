@@ -14,6 +14,8 @@ public interface RemoteControl {
 	public static int MAX_VOL = 10;
 	
 	//	3.	default 메서드(JAVA8버전 이후의 기능)
+	//	인터페이스로 구현된 구현 클래스(TV,AUDIO캍은 것)들이
+	//	공통으로 쓸수있는 기능.
 	default void setMute(boolean mute) {
 		if(mute) {
 			System.out.println("무음처리");
